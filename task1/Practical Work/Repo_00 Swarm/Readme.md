@@ -1,4 +1,4 @@
-# 🤖 OpenAI Swarm and Agents SDK 
+#  OpenAI Swarm and Agents SDK 
 
 ## Swarm Kya Hai?
 
