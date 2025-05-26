@@ -1,4 +1,4 @@
-# 🤖 OpenAI Swarm aur Agents SDK – Asaan Alfaaz Mein
+# 🤖 OpenAI Swarm and Agents SDK 
 
 ## 🌀 Swarm Kya Hai?
 
@@ -167,23 +167,7 @@ Ye wo **guidelines** hain jo batati hain:
 
 ---
 
-## 🧪 Example Use Case (Simple Visualization):
 
-Socho tum ek AI app bana rahi ho jo:
 
-- Email likhta hai,
-- Grammar check karta hai,
-- Translate karta hai.
 
-Toh tum use karogi:
 
-- ✅ Prompt Chaining (step by step),
-- ✅ Routing (translation ka kaam sirf translation agent ko),
-- ✅ Parallelization (grammar + formatting ek saath).
-
-**Yeh sab patterns tum OpenAI ke Agents SDK se implement kar sakti ho.**
-
----
-
-👀 **Diagram chahiye?**  
-Agar tum chaho to main tumhare liye iska visual diagram bhi bana sakta hoon — bas kehna zaroor!
