@@ -15,7 +15,7 @@ UV basically ek aisa tool hai jo humare Python projects ke liye:
 
 ---
 
-## ✅ UV Ko Kyun Use Karna Chahiye?
+##  UV Ko Kyun Use Karna Chahiye?
 
 
 > UV ek modern Python package manager hai jo kisi bhi Python project mein dependencies ko install, manage aur virtual environment banane ke liye use hota hai. Yeh sab kuch fast, safe aur easy bana deta hai.
@@ -28,7 +28,7 @@ UV basically ek aisa tool hai jo humare Python projects ke liye:
 
 ---
 
-## 📁🗂️ Files Created When Using UV in a Project
+##  Files Created When Using UV in a Project
 1. pyproject.toml
 Ye main configuration file hoti hai.
 
@@ -36,7 +36,7 @@ Isme dependencies, Python version, aur project metadata hota hai.
 
 Ye file poetry ya uv ke through banti hai.
 
-📌 Kya hota hai isme?
+ Kya hota hai isme?
 ```
 toml
 [project]
@@ -69,7 +69,7 @@ lib/: Libraries
 
 pyvenv.cfg: Config file for virtual env
 
-⚠️ Note: Agar tum use karo uv venv, to ye folder automatic create ho jaata hai.
+⚠ Note: Agar tum use karo uv venv, to ye folder automatic create ho jaata hai.
 
 4. __pycache__/
 Ye Python ka apna system folder hota hai jo compiled .pyc files store karta hai.
@@ -79,9 +79,9 @@ Ye optimization ke liye hota hai (not uv-specific).
 
 ---
 
-## 🚀 UV Ko Use Karne Ka Tareeqa
+##  UV Ko Use Karne Ka Tareeqa
 
-### 📌 Step-by-step Guide
+###  Step-by-step Guide
 
 **1. Pehle UV ko apne system mein install karo (yeh sirf ek dafa karna hota hai):**
 ```
@@ -124,20 +124,17 @@ python main.py
 ```
 
 
-🔥 UV Ka Use Karne Ka Fayda
-🔒 Har project ka apna environment
+ UV Ka Use Karne Ka Fayda
+ Har project ka apna environment
 
-⚡ Super fast installation
+ Super fast installation
 
-🛠 Sab kuch ek hi tool mein
+ Sab kuch ek hi tool mein
 
-💻 Project ko dusre system pe run karna easy
+ Project ko dusre system pe run karna easy
 
-🔁 Reproducible environment with lock files
+ Reproducible environment with lock files
 
 ----
-🏁 Final Line
-Agar tum chahte ho ke Python projects clean, fast, aur asaani se manage hon — to UV best choice hai.
-
-
+ Final Line
 "UV sab kuch easy, fast aur separate banata hai. Isse project banana aur manage karna dono simple ho jata hai."
