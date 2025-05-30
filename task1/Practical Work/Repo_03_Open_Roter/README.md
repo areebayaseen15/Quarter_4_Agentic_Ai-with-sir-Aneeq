@@ -54,25 +54,25 @@ This app is a **Streamlit-based AI chat agent** with a beautiful UI and built-in
 
    cd ai-agent-openrouter
 ```
-----
+---
 Install dependencies:
 
 ```
 pip install -r requirements.txt
 ```
-----
+---
 Set your OpenRouter API Key in a .env file:
 
 ```
 OPENROUTER_API_KEY=your_api_key_here
 ```
-----
+---
 Run the app:
 
 ```
 streamlit run app.py
 ```
-----
+---
 🧪 Supported Models (Default)
 You can easily customize this list in MODEL_OPTIONS:
 ----
@@ -86,9 +86,10 @@ MODEL_OPTIONS = {
 }
 ```
 
-----
+---
 To add more models (like Claude or Gemini), update this dictionary and adjust prompt formatting if needed.
 
+---
 🧠 Agent Architecture
 The agent uses the agent and Runner abstraction pattern:
 
@@ -98,6 +99,7 @@ Runner: Handles full conversation flow using message history and returns final o
 
 AsyncOpenAI: OpenRouter-compatible client to send requests asynchronously.
 
+---
 💡 Key Features
 ✅ Model Switching with Dropdown
 
