@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "Thinking..."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, I'm here and ready when you are. What are you thinking about? I can help you:\n\n*   **Explore your thoughts:** I can ask clarifying questions to help you delve deeper into your ideas.\n*   **Organize your thoughts:** I can help you structure your thoughts into a logical order.\n*   **Generate ideas:** I can help you brainstorm and come up with new ideas related to your topic.\n*   **Provide information:** I can share relevant information and resources related to your thoughts.\n*   **Offer different perspectives:** I can present alternative viewpoints and challenge your assumptions.\n\nJust let me know what's on your mind!\n"
+  },
+  {
+    "role": "user",
+    "content": "Thinking..."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, I'm still here and ready. It sounds like you're taking your time to formulate your thoughts, which is great. No pressure at all!\n\nTo help me be more useful when you're ready, maybe you can tell me:\n\n*   **What kind of thinking is it?** Is it problem-solving, creative thinking, reflecting on something, planning, or something else?\n*   **Is there a general topic area?** For example, is it about work, relationships, a project you're working on, a philosophical question, etc.?\n\nEven a vague hint can help me understand the context and be a better sounding board. Whenever you're ready, I'm here to listen and help.\n"
+  }
+]
