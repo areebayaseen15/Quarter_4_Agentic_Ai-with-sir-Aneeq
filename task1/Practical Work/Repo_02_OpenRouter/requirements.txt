@@ -1,14 +1,3 @@
-streamlit>=1.30.0
-python-dotenv>=1.0.0
-aiohttp>=3.9.0
-typing-extensions>=4.0.0
-
-# These are assumed custom/local or installed via a specific source
-# So you may need to handle 'agents' package separately, if it's not public
-
-# If 'agents' is part of your local project, do NOT include it here.
-# If it's a pip package or GitHub repo, use:
-# git+https://github.com/your-username/agents.git
-
-# Optional: pin a specific version of Python if needed
-# python>=3.9,<3.12
+streamlit
+python-dotenv
+aiohttp
