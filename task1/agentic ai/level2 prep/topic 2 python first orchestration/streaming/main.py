@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-gemini_api_key = "AIzaSyC7JtvQM1BJCl36Tix55p8e4r95Hc2CSOk"
+gemini_api_key = ""
 
 async def main():
     external_client = AsyncOpenAI(
@@ -43,3 +43,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
