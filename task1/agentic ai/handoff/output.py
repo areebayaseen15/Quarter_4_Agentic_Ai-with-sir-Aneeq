@@ -10,7 +10,7 @@ import os
 from pydantic import BaseModel
 
 
-google_api_key = "AIzaSyC7JtvQM1BJCl36Tix55p8e4r95Hc2CSOk" 
+google_api_key = "" 
 
 
 client = AsyncOpenAI(
@@ -63,6 +63,7 @@ result = Runner.run_sync(
         
     )
 print(result.final_output)
+
 
 
 
