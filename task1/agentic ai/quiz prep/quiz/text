@@ -1,0 +1,170 @@
+/*
+ Theme Name:   DV Themes Child
+ Description:  A child theme for the DV Themes WordPress theme
+ Template:     dv-themes
+ Version:      1.0.0
+*/
+
+/* === Default Styles – Please do not delete === */
+.call-box img,.cooper-box img{border-radius:50%}.health-hov:before,.hov-box:after{transition:.3s ease-in-out;content:'';position:absolute}body{padding-top:20px}.alignwide,.wide-max-width{max-width:100%}.call-box img{padding:12px;background:#fffFFF1A}.dv_blog_noside *{margin-bottom:0}.hover_efct:hover{-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}.border_box_img *{transition:.8s ease-in-out}.check-icon .fas.fa-check-circle,.health-hov:hover .hov-white,.health-hov:hover:before,.hov-box:hover:after,.hov-white{transition:.5s ease-in-out}.border_box_img img{border-radius:10px;border:5px solid #fff}.border_box_img img.wp-block-getwid-images-stack__media{border-radius:10px!important}.health-hov,.hov-box{position:relative;z-index:1}.health-hov:before{left:0;top:0;width:0;height:100%;background:#014e4e;border-radius:10px}.health-hov:hover:before{width:100%;z-index:-1}.health-hov:hover .check-icon .fas.fa-check-circle{color:#f9d67b;transition:.5s ease-in-out}.health-hov:hover .hov-white{color:#fff!important}.icon-box .wp-block-getwid-image-box__image-wrapper{height:60px;width:60px;border-radius:50%;border:1px solid #014e4e;display:flex;justify-content:center;align-items:center}.hov-box:after{bottom:0;right:0;width:100%;height:0;background:#f9d67b;border-radius:10px;z-index:-1}.hov-box:hover:after{height:100%}.group-hov-icon .icon-hov .wp-block-getwid-image-box__image-wrapper{position:relative}.group-hov-icon .icon-hov .wp-block-getwid-image-box__image-wrapper:before{content:'';position:absolute;top:0;left:0;background:#014e4e;border-radius:50%;height:100%;width:100%;transform:scale(0);transition:.4s ease-in-out;z-index:0}.group-hov-black-icon .black-icon-box:hover .wp-block-getwid-image-box__image-wrapper:before,.group-hov-icon .icon-box:hover .wp-block-getwid-image-box__image-wrapper:before{transform:scale(1)}.group-hov-icon .icon-box:hover .wp-block-getwid-image-box__image-wrapper img{filter:brightness(0) invert(1)}.counter-col span.wp-block-getwid-counter__number:after{content:'+';position:absolute;top:-2px;padding-left:8px}.counter-col span.wp-block-getwid-counter__number{font-size:3rem;font-weight:600;position:relative;line-height:100%}.program-image{position:relative;overflow:hidden}.program-image:hover .program-dv{transform:translate(20px,0);transition:.3s ease-in-out;z-index:2}.program-image .program-dv{transform:translate(20px,57px);transition:.3s ease-in-out}.program-image .program-btn a{opacity:0;visibility:hidden;transition:.3s ease-in-out}.program-image:hover .program-btn a{opacity:1;visibility:visible;transition:.3s ease-in-out}.black-icon-box .wp-block-getwid-image-box__image-wrapper{height:100px;width:100px;border-radius:50%;border:1px solid #fff;display:flex;justify-content:center;align-items:center}.group-hov-black-icon .black-icon-box .wp-block-getwid-image-box__image-wrapper{position:relative;transition:.4s ease-in-out}.group-hov-black-icon .black-icon-box .wp-block-getwid-image-box__image-wrapper:before{content:'';position:absolute;top:0;left:0;background:#fff;border-radius:50%;height:100%;width:100%;transform:scale(0);transition:.4s ease-in-out;z-index:0}.group-hov-black-icon .black-icon-box:hover .wp-block-getwid-image-box__image-wrapper{border-color:#014e4e}.group-hov-black-icon .black-icon-box:hover .wp-block-getwid-image-box__image-wrapper img{filter:brightness(0) invert(0)}.group-hov-black-icon .black-icon-box .wp-block-getwid-image-box__image-wrapper img{filter:brightness(0) invert(1);transition:.4s ease-in-out}.step-better{position:relative;top:65px;width:max-content;left:81px;height:max-content}.step-better h3{background:#f9d67b;padding:5px 13px;border-radius:50px;z-index:1}.faq-accordion .ui-accordion-header.ui-corner-top{margin-bottom:10px;border-radius:10px;border:1px solid #f1f1f1!important;transition:.3s ease-in-out}.faq-accordion .ui-accordion-header.ui-corner-top .wp-block-getwid-accordion__header{padding:17px 20px}.faq-accordion .ui-accordion-header.ui-corner-top .wp-block-getwid-accordion__header a{font-size:20px;font-weight:600}.faq-accordion .wp-block-getwid-accordion__content{border:1px solid #eaeef1!important;border-radius:10px;background:#eaeef1;padding:20px}.faq-accordion .wp-block-getwid-accordion__content p{font-size:16px!important;line-height:inherit;color:#828283}.faq-accordion .ui-corner-bottom.ui-helper-reset.ui-widget-content.ui-accordion-content-active{margin-bottom:30px}.faq-accordion .wp-block-getwid-accordion__icon.is-active{background:#f9d67b;padding:10px;border-radius:5px}.faq-accordion .wp-block-getwid-accordion__icon.is-passive{background:#fff;padding:10px;border-radius:5px}.faq-accordion .ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active{background:#f9d67b;transition:.3s ease-in-out}@media(max-width:767px){.exp-btn{bottom:-60px}.health-cov img{height:400px!important;width:100%!important}.faq-health:after{right:0}.faq-health-two:before{left:48px}}
+
+
+.contact-btn a:hover {
+  background-color: #000000; 
+  color: #fff;               
+}
+
+/* section 1 */
+.company-experience {
+    position: absolute;
+    bottom: 25%;
+     z-index: 1000;
+    left: 50%;
+    animation: experienceobject 2s infinite linear alternate;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    }
+.exp-box3 .company-experience{
+    left: 0%;
+     bottom: 30%;
+}
+.client-review{
+     left:60%;
+}
+@keyframes experienceobject {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50px); 
+  }
+}
+
+.counter-bold{
+    font-weight: bolder;
+    font-size: 1.38rem;
+}
+
+
+@keyframes selfRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wp-block-getwid-counter__wrapper{
+    display: flex;
+}
+.wp-block-getwid-counter__number,
+.wp-block-getwid-counter__suffix {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+.wp-block-getwid-counter__suffix{
+    padding-top: 5px;
+      font-size: 2rem;
+}
+
+
+.accordion-heading span .wp-block-getwid-accordion__icon {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 20px 0;
+
+}
+
+.wp-block-getwid-accordion__header a{
+    display: flex;
+    flex-direction: space-between;
+}
+
+
+.service-no2,
+.service-no{
+font-size: 100px;
+    letter-spacing: 0.03em;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    stroke-width: 10px;
+    -webkit-text-stroke-color: #F3F3F3;
+    stroke: #F3F3F3;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    left:60%
+}
+.service-no2{
+  
+    stroke:#808080;
+    -webkit-text-stroke-color: #808080;
+    opacity: 15%;
+    transition: all 0.4s ease-in-out;
+}
+
+.wp-block-getwid-images-stack .wp-block-getwid-images-stack__media {
+
+    border-radius: 20px !important;
+}
+
+
+
+/* responsive */
+
+/* Tablet screens (max-width: 1023px) */
+@media (max-width: 1023px) {
+    .company-experience {
+        left: 50%;   
+        bottom: 20%;
+        transform: scale(0.9); 
+    }
+     .image-stack .wp-block-getwid-images-stack__media.wp-image-13101 {
+    height: 100px;
+
+}
+.image-stack .wp-block-getwid-images-stack__media.wp-image-13230 {
+    height: 100% !important;
+}
+}
+/* Tablet screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .company-experience {
+        left: 50%;   
+        bottom: 20%;
+        transform: scale(0.9); 
+    }
+     .image-stack .wp-block-getwid-images-stack__media.wp-image-13101 {
+    height: 100px;
+
+}
+.image-stack .wp-block-getwid-images-stack__media.wp-image-13230 {
+    height: 100% !important;
+}
+}
+/* Mobile screens (max-width: 660px) */
+@media (max-width: 660px) {
+    .company-experience {
+        left: 0%;  
+        bottom: 5%;
+        transform: translateX(-50%) scale(0.8); 
+    }
+    .image-stack .wp-block-getwid-images-stack__media.wp-image-13101 {
+    height: 100px;
+
+}
+.image-stack .wp-block-getwid-images-stack__media.wp-image-13230 {
+    height: 100% !important;
+}
+.wp-block-getwid-counter__number,
+.wp-block-getwid-counter__suffix {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 20px;
+            width: 60%;
+             margin: 0 auto
+        }
+        .form .title{
+            font-size: 16px;
+            color: #fff;
+            border-bottom:1px solid #fff;
+            padding-bottom: 10px;
+        }
+        .profile-image img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        label{
+            color: #fff;
+            font-size: 16px;
+        }
+        form {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      width:80%;
+    }
+    input{
+        padding: 5px;
+        padding-left: 0;
+        border: 1px solid #191818;
+        border-radius: 4px;
+        background-color: transparent;
+        width: 100%;
+        margin-top: 5px;
+    }
+    textarea{
+        background-color: transparent;
+    }
+    #save-btn{
+    padding: 8px;
+    border-radius:50px;
+    background-color:#fff;
+    width: 40%;
+    border: none;
+}
+/* Medium screens */
+@media (max-width: 1279px) {
+  .form {
+    width: 70%;
+  }
+  form {
+    width: 90%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .form {
+    width: 90%;
+    padding: 15px;
+  }
+  form {
+    width: 100%;
+  }
+  #save-btn {
+    width: 60%;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 660px) {
+  .form {
+    width: 100%;
+    padding: 10px;
+    gap: 20px;
+  }
+  .form .title {
+    font-size: 14px;
+  }
+  label {
+    font-size: 14px;
+  }
+  input,
+  textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+  #save-btn {
+    width: 80%;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+    </style>
+</head>
+<body>
+           <div class="form">
+            <div class="title">Your account</div>
+            <div class="profile-image">
+                <img src="profile-img.jpg" alt="Profile Image">
+            </div>
+            <form  method="post">
+  <div>
+    <label for="Username">Username</label><br>
+   <input type="text" name="name" placeholder="Username">
+  </div>
+  <div>
+   <label for="Email">Email</label><br>
+   <input type="email" name="email" placeholder="Email">
+</div>
+<div>
+    <label for="password">Password</label><br>
+    <input type="text" name="password" placeholder="Password">
+    </div>
+
+    <div>
+    <label for="age">age</label><br>
+    <input type="text" name="age" placeholder="Age">
+   </div>
+      <div >
+    <label for="gender">Sex</label><br>
+    <input type="text" name="gender" placeholder="sex"><br>
+    </div>
+    <div>
+        <label for="profile-description">Profile Description</label><br>
+        <textarea name="profile-description" placeholder="Tell us about yourself..."></textarea>
+    </div>
+   
+        </form>
+        <button id="save-btn">Save</button>
+        </div>
+</body>
+</html>
