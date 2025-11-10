@@ -7,8 +7,7 @@ import os
 
 # load_dotenv()
 
-# Note: This is not an actual OpenAI API key; seems like you are trying to use Google Gemini
-google_api_key = "AIzaSyC7JtvQM1BJCl36Tix55p8e4r95Hc2CSOk"  # Safer
+google_api_key = ""  # Safer
 
 client = AsyncOpenAI(
     api_key=google_api_key,
@@ -92,3 +91,4 @@ print(result.final_output)
 
 
 #
+
